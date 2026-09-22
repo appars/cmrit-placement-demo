@@ -13,7 +13,7 @@ public class Student {
     }
 
     public boolean isEligible() {
-        return cgpa >= 7.0 &&
+        return cgpa >= 5.0 &&
                attendance >= 75.0 &&
                backlogs == 0;
     }
